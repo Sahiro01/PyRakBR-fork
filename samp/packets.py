@@ -87,7 +87,7 @@ class RPCBuilder:
         bs = BitStream()
 
         
-        bs.write_bytes(bytes.fromhex("874A8B6B02F905000000"))
+        bs.write_bytes(bytes.fromhex("874A8B6B020B06000000"))
         bs.write_bits(len(nickname_bytes), 8)
         bs.write_bytes(nickname_bytes)
 
